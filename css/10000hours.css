@@ -114,6 +114,39 @@ main {
 
 .section2 {
   grid-area: s2;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.section2 input {
+  width: 228px;
+  height: 57px;
+  border-radius: 7px;
+  font-family: "GmarketSansMedium";
+  font-size: 1.5rem;
+  color: #babcbe;
+  text-align: center;
+  margin-bottom: 1.6875rem;
+}
+
+.s2-p2 {
+  margin-bottom: 5.5rem;
+}
+
+button {
+  font-family: "GmarketSansBold";
+  font-size: 1.5rem;
+  color: #5b2386;
+  height: 4.125rem;
+  border-radius: 3.5rem;
+  line-height: 1.5rem;
+  padding: 1.5rem 3.0625rem;
+  background-color: #fcee21;
+}
+
+.section2 img {
+  position: absolute;
 }
 
 .section3 {
