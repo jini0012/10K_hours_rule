@@ -37,6 +37,10 @@
 body {
   background-color: #5b2386;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sr-only {
