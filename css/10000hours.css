@@ -325,6 +325,12 @@ dialog button {
     color: rgba(256, 256, 256, 0.3);
   }
 
+  footer img {
+    width: 91px;
+    height: 18px;
+    margin-bottom: 20px;
+  }
+
   dialog {
     width: 330px;
     height: 500px;
