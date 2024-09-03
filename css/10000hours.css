@@ -34,6 +34,9 @@
       format("opentype");
 }
 
+@media (max-width: 360px) {
+}
+
 .sr-only {
   position: absolute;
   left: -9999px;
@@ -81,7 +84,17 @@ header img {
   display: flex;
   flex-direction: column;
   gap: 4.8rem;
-  font-size: 1.25rem;
+  /* p1,p2 사이 간격 78px */
+}
+
+.s1-p1 {
+  font-family: "OTEnjoystoriesBA";
+  font-size: 36px;
+  color: #f5df4d;
+  line-height: 39.6px;
+}
+
+.s1-p2 {
 }
 
 .section2 {
