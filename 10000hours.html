@@ -22,8 +22,8 @@
 <h2>나의 시간 확인</h2>
 <p>나는 <input type="text" placeholder="예)프로그래밍"> 전문가가 될 것이다.</p>
 <p>그래서 앞으로 매일 하루에 <input type="text" placeholder="예)5시간"> 시간씩 훈련할 것이다.</p>
-<button>나는 며칠 동안 훈련을 해야 1만 시간이 될까?</button>
-<img src="./img/click.png" alt="클릭하는 손모양">
+<button type="button">나는 며칠 동안 훈련을 해야 1만 시간이 될까?</button>
+<!-- 손 이미지 CSS 처리 - 가상요소 button::after -->
 </section>
 <section>
 <!-- h 태그 숨김처리 -->
@@ -36,14 +36,13 @@
 <article>
 <!-- h 태그 숨김처리 -->
 <h2>관련 링크 버튼</h2>
-
-<button id="showDialogBtn">훈련하러 가기 Go!Go!</button>
-<button>공유하기</button>
+<button id="showDialogBtn" type="button">훈련하러 가기 Go!Go!</button>
+<button type="button">공유하기</button>
 <dialog id="10000hours">
   <p>화이팅!!♥♥♥</p>
   <p>당신의 꿈을 응원합니다!</p>
   <img src="./img/licat.png" alt="응원하는 라이캣 캐릭터">
-  <button id="closeBtn">종료하고 진짜 훈련하러 가기 GO!GO!</button>
+  <button id="closeBtn" type="button">종료하고 진짜 훈련하러 가기 GO!GO!</button>
   </dialog>
 </article>
     </main>
