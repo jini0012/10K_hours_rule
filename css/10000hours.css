@@ -61,6 +61,7 @@ body {
     "footer";
 }
 
+/* header */
 header {
   grid-area: header;
   background-image: url(/img/clock.png);
@@ -79,6 +80,7 @@ header img {
   height: 7rem;
 }
 
+/* main */
 main {
   font-family: "GmarketSansMedium";
   font-weight: 400;
@@ -145,7 +147,8 @@ button {
   background-color: #fcee21;
   margin-bottom: 2rem;
   cursor: pointer;
-  box-shadow: 50% black;
+  box-shadow: 0 0 10px 0 black;
+  border: none;
 }
 
 .section2 img {
@@ -175,6 +178,7 @@ article button {
   background-color: #fff;
 }
 
+/* footer */
 footer {
   grid-area: footer;
   text-align: center;
@@ -190,4 +194,32 @@ footer p {
   font-size: 0.75rem;
   line-height: 1.08625rem;
   margin-bottom: 4.375rem;
+}
+
+/* 모달창 CSS */
+dialog {
+  font-family: "OTEnjoystoriesBA";
+  font-size: 6rem;
+  color: #5b2386;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 50rem;
+  height: 50rem;
+  border-radius: 1.875rem;
+  box-shadow: 0 0 10px 0 black;
+  padding: 64px 184px;
+  gap: 0.25rem;
+}
+
+.d-p2 {
+  font-size: 2.25rem;
+  margin-bottom: 1.5625rem;
+}
+
+dialog button {
+  margin-top: 4.625rem;
 }
