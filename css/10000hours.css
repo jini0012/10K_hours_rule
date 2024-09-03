@@ -40,9 +40,6 @@
   --btn-color: #fcee21;
 }
 
-@media (max-width: 360px) {
-}
-
 .sr-only {
   position: absolute;
   left: -9999px;
@@ -53,13 +50,14 @@
 }
 
 body {
+  min-width: 361px;
   background-color: var(--main-color);
   color: var(--sec-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4.375rem;
+  /* min-width: 765px; */
 }
 
 /* header */
@@ -68,7 +66,7 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-size: 16.3125rem;
+  background-size: 16.5625rem;
 }
 
 header h1 {
@@ -86,6 +84,7 @@ main {
   font-weight: 400;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   gap: 7.1875rem;
   font-size: 1.5rem;
@@ -109,11 +108,16 @@ main {
   line-height: 1.5;
   background-image: url(/img/quotes.png);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
-.section2 {
+/* .section2 {
   line-height: 1.5rem;
   text-align: center;
+} */
+
+.section2 form {
+  position: relative;
 }
 
 .section2 input {
@@ -164,8 +168,10 @@ button {
   vertical-align: middle;
 }
 
-article button {
-  margin-bottom: 6.125rem;
+article form {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 83px;
 }
 
 .share {
@@ -215,4 +221,130 @@ dialog {
 
 dialog button {
   margin-top: 4.625rem;
+}
+
+@media (max-width: 360px) {
+  header {
+    background-size: 7.8125rem;
+  }
+
+  header h1 {
+    margin: 5.16rem 7.6rem;
+  }
+
+  header img {
+    width: 16.6875rem;
+    height: 3.3125rem;
+  }
+
+  main {
+    gap: 30px;
+  }
+  .s1-p1 {
+    font-size: 1.375rem;
+    margin-bottom: 62px;
+  }
+
+  .s1-p2,
+  .s1-p2 span {
+    background-size: 18.5rem;
+    font-size: 0.875rem;
+    line-height: 2.33rem;
+  }
+
+  .s2-p2 {
+    margin-bottom: 49px;
+  }
+
+  .section2 {
+    font-size: 0.875rem;
+  }
+
+  .section2 input {
+    width: 156px;
+    height: 37px;
+    font-size: 0.875rem;
+    margin-bottom: 17px;
+  }
+
+  .section2 span {
+    display: block;
+    margin-bottom: 17px;
+  }
+
+  button {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .btn-one {
+    border-radius: 13px;
+    width: 241px;
+    height: 68px;
+    padding: 23px 49px 21px 49px;
+  }
+
+  .section2 img {
+    width: 43px;
+    height: 48px;
+    right: -10px;
+    bottom: 22px;
+  }
+
+  .section3 {
+    font-size: 14px;
+    gap: 15px;
+    margin-bottom: 55px;
+  }
+
+  .section3 span {
+    font-size: 24px;
+    line-height: 14px;
+  }
+
+  article form {
+    gap: 12px;
+    padding: 0 31px;
+  }
+  .btn-two {
+    width: 186px;
+    height: 40px;
+    padding: 0;
+  }
+
+  .btn-three {
+    width: 92px;
+    height: 40px;
+    padding: 0;
+  }
+
+  footer p {
+    font-family: "Noto Sans KR";
+    font-size: 9px;
+    line-height: 13.03px;
+    color: rgba(256, 256, 256, 0.3);
+  }
+
+  dialog {
+    width: 330px;
+    height: 500px;
+    border-radius: 30px;
+    font-size: 70px;
+    box-shadow: 0 0 50px 0 black;
+    padding: 44px;
+  }
+
+  dialog img {
+    width: 241px;
+    height: 188px;
+  }
+
+  .d-p2 {
+    font-size: 36px;
+    margin-bottom: 1.5625rem;
+  }
+
+  dialog button {
+    margin-top: 34px;
+  }
 }
