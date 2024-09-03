@@ -198,11 +198,14 @@ footer p {
 
 /* 모달창 CSS */
 dialog {
+  /* 모달창 숨김 */
+  visibility: hidden;
   font-family: "OTEnjoystoriesBA";
   font-size: 6rem;
   color: #5b2386;
 
   display: flex;
+  display: ;
   flex-direction: column;
   justify-content: center;
   align-items: center;
