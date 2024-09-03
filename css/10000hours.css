@@ -34,6 +34,12 @@
       format("opentype");
 }
 
+:root {
+  --main-color: #5b2386;
+  --sec-color: #fff;
+  --btn-color: #fcee21;
+}
+
 @media (max-width: 360px) {
 }
 
@@ -47,8 +53,8 @@
 }
 
 body {
-  background-color: #5b2386;
-  color: #fff;
+  background-color: var(--main-color);
+  color: var(--sec-color);
   display: grid;
   justify-content: center;
   justify-items: center;
@@ -139,12 +145,12 @@ main {
 button {
   font-family: "GmarketSansBold";
   font-size: 1.5rem;
-  color: #5b2386;
+  color: var(--main-color);
   height: 4.125rem;
   border-radius: 3.5rem;
   line-height: 1.5rem;
   padding: 1.5rem 3.0625rem;
-  background-color: #fcee21;
+  background-color: var(--btn-color);
   margin-bottom: 2rem;
   cursor: pointer;
   box-shadow: 0 0 10px 0 black;
@@ -175,7 +181,7 @@ article button {
 }
 
 .share {
-  background-color: #fff;
+  background-color: var(--sec-color);
 }
 
 /* footer */
@@ -202,10 +208,8 @@ dialog {
   visibility: hidden;
   font-family: "OTEnjoystoriesBA";
   font-size: 6rem;
-  color: #5b2386;
-
+  color: var(--main-color);
   display: flex;
-  display: ;
   flex-direction: column;
   justify-content: center;
   align-items: center;
