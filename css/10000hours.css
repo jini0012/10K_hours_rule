@@ -34,15 +34,6 @@
       format("opentype");
 }
 
-body {
-  background-color: #5b2386;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .sr-only {
   position: absolute;
   left: -9999px;
@@ -50,4 +41,57 @@ body {
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+
+body {
+  background-color: #5b2386;
+  color: #fff;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas:
+    "header"
+    "s1"
+    "s2"
+    "s3"
+    "footer";
+}
+
+header {
+  grid-area: header;
+  background-image: url(/img/clock.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size: 16.3125rem;
+}
+
+header h1 {
+  margin: 7.8125rem 42.375rem;
+}
+
+header img {
+  width: 35.25rem;
+  height: 7rem;
+}
+
+.section1 {
+  grid-area: s1;
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  font-size: 1.25rem;
+}
+
+.section2 {
+  grid-area: s2;
+}
+
+.section3 {
+  grid-area: s3;
+}
+
+footer {
+  grid-area: footer;
 }
