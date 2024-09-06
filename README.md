@@ -20,7 +20,7 @@ https://jini0012.github.io/10K_hours_rule/
 ## 사용 언어
 HTML, CSS
 
-## 화면설계
+## 화면
 
 |📝|PC|Mobile|
 |:--:|:--:|:--:|
