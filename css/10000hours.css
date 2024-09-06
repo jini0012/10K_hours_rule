@@ -49,129 +49,130 @@
   overflow: hidden;
 }
 
+html {
+  font-size: 10px;
+  font-family: "GmarketSansMedium";
+  font-weight: 400;
+}
+
 body {
-  min-width: 361px;
   background-color: var(--main-color);
   color: var(--sec-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* min-width: 765px; */
+
+  font-size: 2.4rem;
+  min-width: 767px;
 }
 
 /* header */
 header {
-  background-image: url(/img/clock.png);
+  padding: 0 83rem;
+  margin: 12rem 0 4.6rem 0;
+  background-image: url(../img/clock.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-size: 16.5625rem;
+  background-size: 26.1rem 26.5rem;
 }
 
 header h1 {
-  margin: 7.8125rem 42.375rem;
+  margin: 5.5rem 0;
 }
 
 header img {
-  width: 35.25rem;
-  height: 7rem;
+  width: 56.4rem;
+  aspect-ratio: 564 / 112;
 }
 
 /* main */
 main {
-  font-family: "GmarketSansMedium";
-  font-weight: 400;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  gap: 7.1875rem;
-  font-size: 1.5rem;
+  gap: 10.2rem;
 }
 
 .s1-p1 {
   font-family: "OTEnjoystoriesBA";
-  font-size: 2.25rem;
+  font-size: 3.6rem;
   color: #f5df4d;
-  line-height: 2.475rem;
-  margin-bottom: 4.875rem;
+  line-height: 39.6px;
+  margin-bottom: 7.8rem;
+}
+
+.s1-p2 {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  background-image: url(../img/quotes.png);
+  background-repeat: no-repeat;
 }
 
 .s1-p2 span {
   font-family: "GmarketSansBold";
-  font-size: 1.5rem;
-}
-.s1-p2 {
-  text-align: center;
-  font-size: 1.125rem;
-  line-height: 1.5;
-  background-image: url(/img/quotes.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-/* .section2 {
-  line-height: 1.5rem;
-  text-align: center;
-} */
-
-.section2 form {
-  position: relative;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
 }
 
 .section2 input {
-  width: 228px;
-  height: 57px;
-  border-radius: 7px;
+  width: 22.8rem;
+  height: 5.7rem;
+  border-radius: 0.7rem;
   font-family: "GmarketSansMedium";
-  font-size: 1.5rem;
+  font-size: 2.4rem;
   color: #babcbe;
   text-align: center;
-  margin-bottom: 1.6875rem;
+  margin-bottom: 2.7rem;
 }
 
 .s2-p2 {
-  margin-bottom: 5.5rem;
+  margin-bottom: 8.8rem;
 }
 
 button {
   font-family: "GmarketSansBold";
-  font-size: 1.5rem;
+  font-size: 2.4rem;
   color: var(--main-color);
-  height: 4.125rem;
-  border-radius: 3.5rem;
-  line-height: 1.5rem;
-  padding: 1.5rem 3.0625rem;
+  height: 6.6rem;
+  border-radius: 5.6rem;
+  line-height: 1.6rem;
+  padding: 2.1rem 4.9rem;
   background-color: var(--btn-color);
-  margin-bottom: 2rem;
   cursor: pointer;
-  box-shadow: 0 0 10px 0 black;
+  box-shadow: 0 0 1rem 0 black;
   border: none;
 }
 
-.section2 img {
-  position: absolute;
+.section2 form {
+  background-image: url(../img/click.png);
+  background-repeat: no-repeat;
+  background-position-x: 67.2rem;
+  background-position-y: 27rem;
 }
 
 .section3 {
-  line-height: 1.5rem;
+  margin-top: 4.5rem;
+  line-height: 2.4rem;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.7rem;
 }
 
 .section3 span {
   font-family: "GmarketSansBold";
-  font-size: 4.5rem;
-  line-height: 4.5rem;
+  font-size: 7.2rem;
+  line-height: 7.2rem;
   vertical-align: middle;
 }
 
 article form {
   display: flex;
-  gap: 18px;
-  margin-bottom: 83px;
+  gap: 1.8rem;
+  margin-bottom: 13rem;
 }
 
 .share {
@@ -181,176 +182,202 @@ article form {
 /* footer */
 footer {
   text-align: center;
+  padding: 0 0 7rem 0;
 }
 
 footer img {
-  width: 7.8125rem;
-  height: 1.5625rem;
-  margin-bottom: 1.25rem;
+  width: 12.5rem;
+  height: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 footer p {
-  font-size: 0.75rem;
-  line-height: 1.08625rem;
+  font-family: "Noto Sans KR";
+  font-size: 1.2rem;
+  line-height: 1.738rem;
 }
 
 /* 모달창 CSS */
 dialog {
   /* 모달창 숨김 */
-  visibility: hidden;
   font-family: "OTEnjoystoriesBA";
   font-size: 6rem;
   color: var(--main-color);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  box-sizing: border-box;
+  width: 80rem;
+  height: 80rem;
+  border-radius: 3rem;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 50%);
+  padding: 7.6rem 14.6rem 6.8rem 14.6rem;
+  border: none;
+}
 
-  width: 50rem;
-  height: 50rem;
-  border-radius: 1.875rem;
-  box-shadow: 0 0 10px 0 black;
-  padding: 64px 184px;
-  gap: 0.25rem;
+.d-p1 {
+  font-size: 9.6rem;
+  line-height: 10.56rem;
+  margin-bottom: 0.4rem;
 }
 
 .d-p2 {
-  font-size: 2.25rem;
-  margin-bottom: 1.5625rem;
+  font-size: 3.6rem;
+  line-height: 3.96rem;
+  margin-bottom: 2.9rem;
+}
+
+dialog img {
+  width: 43.3rem;
+  width: 33.7rem;
+  margin-bottom: 7.4rem;
 }
 
 dialog button {
-  margin-top: 4.625rem;
+  width: 50.8rem;
+  padding: 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   header {
     background-size: 7.8125rem;
+    margin: 4.1rem 0 3.1rem 0;
+    background-size: 12.5rem;
   }
 
   header h1 {
-    margin: 5.16rem 7.6rem;
+    margin: 2.5rem;
   }
 
   header img {
-    width: 16.6875rem;
-    height: 3.3125rem;
+    width: 26.7rem;
+    height: 5.3rem;
   }
 
   main {
-    gap: 30px;
+    gap: 5.5rem;
   }
   .s1-p1 {
-    font-size: 1.375rem;
-    margin-bottom: 62px;
+    font-size: 2.2rem;
+    margin-bottom: 6.2rem;
+  }
+
+  .s1-p2 {
+    margin-bottom: 1.2rem;
   }
 
   .s1-p2,
   .s1-p2 span {
-    background-size: 18.5rem;
-    font-size: 0.875rem;
-    line-height: 2.33rem;
-  }
-
-  .s2-p2 {
-    margin-bottom: 49px;
+    background-size: 29rem;
+    background-position: center 2.2rem;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
   }
 
   .section2 {
-    font-size: 0.875rem;
+    font-size: 1.4rem;
   }
 
   .section2 input {
-    width: 156px;
-    height: 37px;
-    font-size: 0.875rem;
-    margin-bottom: 17px;
+    width: 15.6rem;
+    height: 3.7rem;
+    font-size: 1.4rem;
+    margin-bottom: 1.7rem;
   }
 
   .section2 span {
     display: block;
-    margin-bottom: 17px;
+    margin-bottom: 1.9rem;
+  }
+
+  .s2-p2 {
+    margin-bottom: 3.2rem;
   }
 
   button {
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
   }
 
   .btn-one {
-    border-radius: 13px;
-    width: 241px;
-    height: 68px;
-    padding: 23px 49px 21px 49px;
+    border-radius: 1.3rem;
+    width: 24.1rem;
+    height: 6.8rem;
   }
 
-  .section2 img {
-    width: 43px;
-    height: 48px;
-    right: -10px;
-    bottom: 22px;
+  .section2 form {
+    background-size: 4.3rem 4.8rem;
+    background-position-x: 28.3rem;
+    background-position-y: 21.3rem;
   }
 
   .section3 {
-    font-size: 14px;
-    gap: 15px;
-    margin-bottom: 55px;
+    margin-top: 0.9rem;
+    font-size: 1.4rem;
+    gap: 1.5rem;
   }
 
   .section3 span {
-    font-size: 24px;
-    line-height: 14px;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
   }
 
   article form {
-    gap: 12px;
-    padding: 0 31px;
+    gap: 1.3rem;
+    margin-bottom: 8.3rem;
   }
   .btn-two {
-    width: 186px;
-    height: 40px;
+    width: 18.6rem;
+    height: 4rem;
     padding: 0;
   }
 
   .btn-three {
-    width: 92px;
-    height: 40px;
+    width: 9.2rem;
+    height: 4rem;
     padding: 0;
   }
 
   footer p {
-    font-family: "Noto Sans KR";
-    font-size: 9px;
+    font-size: 0.9rem;
     line-height: 13.03px;
-    color: rgba(256, 256, 256, 0.3);
+    color: rgba(256, 256, 256, 0.7);
   }
 
   footer img {
-    width: 91px;
-    height: 18px;
-    margin-bottom: 20px;
+    width: 9.1rem;
+    height: 1.8rem;
+    margin-bottom: 1.7rem;
   }
 
   dialog {
-    width: 330px;
-    height: 500px;
-    border-radius: 30px;
-    font-size: 70px;
-    box-shadow: 0 0 50px 0 black;
-    padding: 44px;
+    width: 33rem;
+    height: 50rem;
+    border-radius: 3rem;
+    box-shadow: 0 0 5rem 0 black;
+    padding: 3rem 0rem;
   }
 
   dialog img {
-    width: 241px;
-    height: 188px;
+    width: 24.1rem;
+    height: 18.8rem;
+    margin-bottom: 3.4rem;
+  }
+
+  .d-p1 {
+    font-size: 6.4rem;
+    line-height: 7.04rem;
+    margin-bottom: 0;
+  }
+
+  .d-p1 span {
+    display: none;
   }
 
   .d-p2 {
-    font-size: 36px;
-    margin-bottom: 1.5625rem;
+    margin-bottom: 2.4rem;
   }
 
   dialog button {
-    margin-top: 34px;
+    width: 24.1rem;
+    height: 6.8rem;
+    border-radius: 1.3rem;
   }
 }
