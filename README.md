@@ -22,10 +22,10 @@ HTML, CSS
 
 ## 화면설계
 
-||PC|Mobile|
+|📝|PC|Mobile|
 |:--:|:--:|:--:|
 |main|![PC](https://github.com/user-attachments/assets/320ee46b-f920-4014-b890-6f6c5218acb7)|![mobile](https://github.com/user-attachments/assets/2cf22e4f-a462-4f64-9204-08649aad4050)|
-|modal button|![PC-modal-btn](https://github.com/user-attachments/assets/8e3534ea-4f95-43f6-8bbd-8db8cdf32667)|![mobile-modal-btn](https://github.com/user-attachments/assets/97aa47cc-7e6e-414a-918f-b6c3b712caf7)|
+|modalbutton<br>디자인동일|![PC-modal-btn](https://github.com/user-attachments/assets/8e3534ea-4f95-43f6-8bbd-8db8cdf32667)|![mobile-modal-btn](https://github.com/user-attachments/assets/97aa47cc-7e6e-414a-918f-b6c3b712caf7)|
 |modal|![PC-modal](https://github.com/user-attachments/assets/a8329e48-90e8-44c8-85dc-107f28a86e26)|![mobile-modal](https://github.com/user-attachments/assets/9a723acd-8e4c-4b00-859b-7fc1d220a7fd)|
 
 
