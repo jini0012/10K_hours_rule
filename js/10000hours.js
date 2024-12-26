@@ -17,7 +17,6 @@ const viewCalcTime = document.querySelector(".view-calc-time");
 
 timeCalc.addEventListener("submit", (e) => {
   e.preventDefault();
-  viewTrainingTime.style.display = "unset";
   const myGoal = timeCalc.querySelector("#job").value;
   const myTrainingTime = timeCalc.querySelector("#hour").value;
 
@@ -30,6 +29,7 @@ timeCalc.addEventListener("submit", (e) => {
   }
 
   if (myGoal && myTrainingTime) {
+    viewTrainingTime.style.display = "unset";
     viewMyGoal.textContent = myGoal;
     viewCalcTime.textContent = Math.trunc(10000 / myTrainingTime);
   }
