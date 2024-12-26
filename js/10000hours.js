@@ -11,11 +11,13 @@ closeBtn.addEventListener("click", () => {
 });
 
 const timeCalc = document.querySelector(".time-calc form");
+const viewTrainingTime = document.querySelector(".training-time");
 const viewMyGoal = document.querySelector(".view-goal");
 const viewCalcTime = document.querySelector(".view-calc-time");
 
 timeCalc.addEventListener("submit", (e) => {
   e.preventDefault();
+  viewTrainingTime.style.display = "unset";
   const myGoal = timeCalc.querySelector("#job").value;
   const myTrainingTime = timeCalc.querySelector("#hour").value;
 
