@@ -1,6 +1,6 @@
 const dialog = document.querySelector("dialog");
-const showDialogBtn = document.getElementById("showDialogBtn");
-const closeBtn = dialog.querySelector("button");
+const showDialogBtn = document.querySelector(".modal-open-btn");
+const closeBtn = dialog.querySelector(".modal-close-btn");
 
 showDialogBtn.addEventListener("click", () => {
   dialog.showModal();

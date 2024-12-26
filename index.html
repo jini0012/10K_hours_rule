@@ -14,35 +14,35 @@
       </h1>
     </header>
     <main>
-      <section class="section1">
+      <section class="information">
         <h2 class="sr-only">1만 시간의 법칙 설명</h2>
-        <p class="s1-p1">"연습은 어제의 당신보다 당신을 더 낫게 만든다."</p>
-        <p class="s1-p2">
+        <p class="quote">"연습은 어제의 당신보다 당신을 더 낫게 만든다."</p>
+        <p class="detail-info">
           <span>1만 시간의 법칙</span>은<br />어떤 분야의 전문가가 되기
           위해서는<br />최소한 1만 시간의 훈련이 필요하다는 법칙이다.
         </p>
       </section>
-      <section class="section2">
+      <section class="time-calc">
         <h2 class="sr-only">나의 훈련시간 확인</h2>
         <form action="#" method="get">
-          <p class="s2-p1">
+          <p class="my-goal">
             나는
             <label for="job" class="sr-only">직업 이름</label>
             <input type="text" id="job" placeholder="예) 프로그래밍" /> 전문가가
             될 것이다.
           </p>
-          <p class="s2-p2">
+          <p class="plan-time">
             <span>그래서 앞으로 매일 하루에</span>
             <label for="hour" class="sr-only">훈련 시간</label>
             <input type="text" id="hour" placeholder="예) 5시간" /> 시간씩
             훈련할 것이다.
           </p>
-          <button class="btn-one" type="submit">
+          <button class="submit-btn" type="submit">
             나는 며칠 동안 훈련을 해야 1만 시간이 될까?
           </button>
         </form>
       </section>
-      <section class="section3">
+      <section class="training-time">
         <h2 class="sr-only">훈련 시간 안내 문구</h2>
         <!-- 프로그래밍, 5110 부분 추후 입력받아서 section2 버튼 클릭 시 나오게끔 수정필요 -->
         <p>당신은 <span>프로그래밍</span> 전문가가 되기 위해서</p>
@@ -51,28 +51,27 @@
       <article>
         <h2 class="sr-only">관련 링크 버튼</h2>
         <form action="#" method="post">
-          <button id="showDialogBtn" type="button" class="btn-two">
+          <button id="showDialogBtn" type="button" class="modal-open-btn">
             훈련하러 가기 Go!Go!
           </button>
-          <button type="button" class="share btn-three">공유하기</button>
+          <button type="button" class="share-btn">공유하기</button>
         </form>
         <dialog id="10000hours">
-          <p class="d-p1">화이팅!!<span>♥♥♥</span></p>
-
-          <p class="d-p2">당신의 꿈을 응원합니다!</p>
+          <p class="cheer-one">화이팅!!<span>♥♥♥</span></p>
+          <p class="cheer-two">당신의 꿈을 응원합니다!</p>
           <img src="./img/licat.png" alt="응원하는 라이캣 캐릭터" />
-          <button id="closeBtn" type="button">
+          <button class="modal-close-btn" type="button">
             종료하고 진짜 훈련하러 가기 GO!GO!
           </button>
         </dialog>
       </article>
     </main>
     <footer>
-      <img src="./img/logo.png" alt="위니브" />
-      <p>
+      <h2><img src="./img/logo.png" alt="위니브" /></h2>
+      <address>
         ※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다<br />
         수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.
-      </p>
+      </address>
     </footer>
     <script src="./js/10000hours.js"></script>
   </body>
