@@ -233,6 +233,7 @@ dialog img {
 
 @media screen and (max-width: 767px) {
   header {
+    padding: 0;
     background-size: 7.8125rem;
     margin: 4.1rem 0 3.1rem 0;
     background-size: 12.5rem;
