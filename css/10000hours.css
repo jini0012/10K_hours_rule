@@ -67,7 +67,6 @@ body {
   min-width: 330px;
 }
 
-/* header */
 header {
   padding: 0 83rem;
   margin: 12rem 0 4.6rem 0;
@@ -87,7 +86,6 @@ header img {
   aspect-ratio: 564 / 112;
 }
 
-/* main */
 main {
   display: flex;
   flex-direction: column;
@@ -180,7 +178,6 @@ article form {
   background-color: var(--sec-color);
 }
 
-/* footer */
 footer {
   text-align: center;
   padding: 0 0 7rem 0;
@@ -198,9 +195,7 @@ address {
   line-height: 1.738rem;
 }
 
-/* 모달창 CSS */
 dialog {
-  /* 모달창 숨김 */
   font-family: "OTEnjoystoriesBA";
   font-size: 6rem;
   color: var(--main-color);
