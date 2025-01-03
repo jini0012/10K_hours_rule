@@ -31,6 +31,6 @@ timeCalc.addEventListener("submit", (e) => {
   if (myGoal && myTrainingTime) {
     viewTrainingTime.style.display = "unset";
     viewMyGoal.textContent = myGoal;
-    viewCalcTime.textContent = Math.trunc(10000 / myTrainingTime);
+    viewCalcTime.textContent = Math.trunc(10000 / parseFloat(myTrainingTime));
   }
 });
