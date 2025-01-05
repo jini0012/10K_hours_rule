@@ -17,6 +17,7 @@ const viewCalcTime = document.querySelector(".view-calc-time");
 
 timeCalc.addEventListener("submit", (e) => {
   e.preventDefault();
+  viewTrainingTime.style.display = "none";
   const myGoal = timeCalc.querySelector("#job").value;
   const myTrainingTime = timeCalc.querySelector("#hour").value;
 
@@ -24,11 +25,15 @@ timeCalc.addEventListener("submit", (e) => {
     alert("목표와 훈련 시간을 입력하지 않았습니다!");
   } else if (!myGoal) {
     alert("목표를 입력하지 않았습니다!");
-  } else if (!myTrainingTime) {
-    alert("훈련시간을 입력하지 않았습니다!");
+  } else {
+    if (isNaN(parseFloat(myTrainingTime))) {
+      alert("훈련시간을 제대로 입력해주세요 :)");
+    } else if (!myTrainingTime) {
+      alert("훈련시간을 입력하지 않았습니다!");
+    }
   }
 
-  if (myGoal && myTrainingTime) {
+  if (myGoal && !isNaN(parseFloat(myTrainingTime))) {
     viewTrainingTime.style.display = "unset";
     viewMyGoal.textContent = myGoal;
     viewCalcTime.textContent = Math.trunc(10000 / parseFloat(myTrainingTime));
