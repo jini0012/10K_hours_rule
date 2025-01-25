@@ -1,8 +1,8 @@
 # 📝Project01 : 10K_hours_rule
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=5685F7&width=435&lines=Project01+%3A+10%EB%A7%8C+%EC%8B%9C%EA%B0%84%EC%9D%98+%EB%B2%95%EC%B9%99)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=5685F7&width=435&lines=Project01+%3A+1%EB%A7%8C+%EC%8B%9C%EA%B0%84%EC%9D%98+%EB%B2%95%EC%B9%99)](https://git.io/typing-svg)
 
-#### 10만 시간의 법칙
+#### 1만 시간의 법칙
 
 > 어떤 분야의 전문가가 되기 위하여 최소 1만 시간이 필요하다.
 
